@@ -1,0 +1,83 @@
+img {
+    vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+    position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+.mySlides-desktop {
+    display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+    cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 10px;
+    color: white;
+    border-radius: 9999px;
+    background-color: #527ba9;
+    user-select: none;
+}
+
+.prev-desktop,
+.next-desktop {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 10px;
+    color: white;
+    border-radius: 9999px;
+    background-color: #527ba9;
+    user-select: none;
+}
+
+.prev {
+    left: -16px;
+}
+.prev-desktop {
+    left: 8px;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: -16px;
+    border-radius: 9999px;
+}
+.next-desktop {
+    right: 8px;
+    border-radius: 9999px;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+    opacity: 0.6;
+}
+.demo-desktop {
+    opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+    opacity: 1;
+}
+.active,
+.demo-desktop:hover {
+    opacity: 1;
+}
